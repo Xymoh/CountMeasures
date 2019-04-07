@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Zad3_1"
+             x:Class="Zad3_1.MainPage"
+             BackgroundColor="#404040">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="orangeButton" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="Orange"/>
+                <Setter Property="TextColor" Value="NavajoWhite"/>
+                <Setter Property="BorderRadius" Value="0"/>
+                <Setter Property="FontSize" Value="20"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <ScrollView>
+            <Grid x:Name="controlGrid" RowSpacing="1" ColumnSpacing="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="120" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="70" />
+                    <RowDefinition Height="70" />
+                    <RowDefinition Height="70" />
+                    <RowDefinition Height="70" />
+                    <RowDefinition Height="70" />
+                    <RowDefinition Height="70" />
+                    <RowDefinition Height="70" />
+                    <RowDefinition Height="70" />
+                    <RowDefinition Height="70" />
+                    <RowDefinition Height="70" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Label x:Name="label"
+                           Text="Podaj wartość i kliknij przyciski poniżej żeby przekonwertować wartości"
+                           HorizontalTextAlignment="Center"
+                           VerticalTextAlignment="Center"
+                           FontSize="Large"
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="Center"
+                           BackgroundColor="LightBlue"
+                           TextColor="White"
+                           Grid.Row="0"
+                           Grid.ColumnSpan="2"/>
+
+                <Entry Placeholder="Podaj wartość"
+                           x:Name="wartosc"
+                           Keyboard="Numeric"
+                           FontSize="Default"
+                           Grid.Row="1"
+                           Grid.ColumnSpan="2"/>
+
+                <Button Text="milimetry na centymetry"
+                            VerticalOptions="CenterAndExpand"
+                            HorizontalOptions="Center"
+                            Clicked="OnButtonClicked"
+                            Grid.Row="2"
+                            Grid.Column="0"
+                            Style="{StaticResource orangeButton}"/>
+
+                <Button Text="centymetry na milimetry"
+                            VerticalOptions="CenterAndExpand"
+                            HorizontalOptions="Center"
+                            Clicked="OnButtonClickedv2"
+                            Grid.Row="2"
+                            Grid.Column="1"
+                            Style="{StaticResource orangeButton}"/>
+
+                <Button Text="centymetry na metry"
+                            VerticalOptions="CenterAndExpand"
+                            HorizontalOptions="Center"
+                            Clicked="OnButtonClicked1"
+                            Grid.Row="3"
+                            Grid.Column="0"
+                            Style="{StaticResource orangeButton}"/>
+
+                <Button Text="metry na centymetry"
+                            VerticalOptions="CenterAndExpand"
+                            HorizontalOptions="Center"
+                            Clicked="OnButtonClicked1v2"
+                            Grid.Row="3"
+                            Grid.Column="1"
+                            Style="{StaticResource orangeButton}"/>
+
+                <Button Text="metry na kilometry"
+                            VerticalOptions="CenterAndExpand"
+                            HorizontalOptions="Center"
+                            Clicked="OnButtonClicked2"
+                            Grid.Row="4"
+                            Grid.Column="0"
+                            Style="{StaticResource orangeButton}"/>
+
+                <Button Text="kilometry na metry"
+                            VerticalOptions="CenterAndExpand"
+                            HorizontalOptions="Center"
+                            Clicked="OnButtonClicked2v2"
+                            Grid.Row="4"
+                            Grid.Column="1"
+                            Style="{StaticResource orangeButton}"/>
+
+                <Button Text="kilometry na mile"
+                            VerticalOptions="CenterAndExpand"
+                            HorizontalOptions="Center"
+                            Clicked="OnButtonClicked3"
+                            Grid.Row="5"
+                            Grid.Column="0"
+                            Style="{StaticResource orangeButton}"/>
+
+                <Button Text="mile na kilometry"
+                            VerticalOptions="CenterAndExpand"
+                            HorizontalOptions="Center"
+                            Clicked="OnButtonClicked3v2"
+                            Grid.Row="5"
+                            Grid.Column="1"
+                            Style="{StaticResource orangeButton}"/>
+
+                <Button Text="stopy na centymetry"
+                            VerticalOptions="CenterAndExpand"
+                            HorizontalOptions="Center"
+                            Clicked="OnButtonClicked4"
+                            Grid.Row="6"
+                            Grid.Column="0"
+                            Style="{StaticResource orangeButton}"/>
+
+                <Button Text="centymetry na stopy"
+                            VerticalOptions="CenterAndExpand"
+                            HorizontalOptions="Center"
+                            Clicked="OnButtonClicked4v2"
+                            Grid.Row="6"
+                            Grid.Column="1"
+                            Style="{StaticResource orangeButton}"/>
+
+                <Button Text="jardy na metry"
+                            VerticalOptions="CenterAndExpand"
+                            HorizontalOptions="Center"
+                            Clicked="OnButtonClicked5"
+                            Grid.Row="7"
+                            Grid.Column="0"
+                            Style="{StaticResource orangeButton}"/>
+
+                <Button Text="metry na jardy"
+                            VerticalOptions="CenterAndExpand"
+                            HorizontalOptions="Center"
+                            Clicked="OnButtonClicked5v2"
+                            Grid.Row="7"
+                            Grid.Column="1"
+                            Style="{StaticResource orangeButton}"/>
+
+                <Button Text="celsjusz na fahrenheit"
+                            VerticalOptions="CenterAndExpand"
+                            HorizontalOptions="Center"
+                            Clicked="OnButtonClicked6"
+                            Grid.Row="8"
+                            Grid.Column="0"
+                            Style="{StaticResource orangeButton}"/>
+
+                <Button Text="fahrenheit na celsjusz"
+                            VerticalOptions="CenterAndExpand"
+                            HorizontalOptions="Center"
+                            Clicked="OnButtonClicked6v2"
+                            Grid.Row="8"
+                            Grid.Column="1"
+                            Style="{StaticResource orangeButton}"/>
+
+                <Button Text="gramy na dekagramy"
+                            VerticalOptions="CenterAndExpand"
+                            HorizontalOptions="Center"
+                            Clicked="OnButtonClicked7"
+                            Grid.Row="9"
+                            Grid.Column="0"
+                            Style="{StaticResource orangeButton}"/>
+
+                <Button Text="dekagramy na gramy"
+                            VerticalOptions="CenterAndExpand"
+                            HorizontalOptions="Center"
+                            Clicked="OnButtonClicked7v2"
+                            Grid.Row="9"
+                            Grid.Column="1"
+                            Style="{StaticResource orangeButton}"/>
+
+                <Button Text="gramy na kilogramy"
+                            VerticalOptions="CenterAndExpand"
+                            HorizontalOptions="Center"
+                            Clicked="OnButtonClicked8"
+                            Grid.Row="10"
+                            Grid.Column="0"
+                            Style="{StaticResource orangeButton}"/>
+
+                <Button Text="kilogramy na gramy"
+                            VerticalOptions="CenterAndExpand"
+                            HorizontalOptions="Center"
+                            Clicked="OnButtonClicked8v2"
+                            Grid.Row="10"
+                            Grid.Column="1"
+                            Style="{StaticResource orangeButton}"/>
+
+                <Button Text="kilogramy na tony"
+                            VerticalOptions="CenterAndExpand"
+                            HorizontalOptions="Center"
+                            Clicked="OnButtonClicked9"
+                            Grid.Row="11"
+                            Grid.Column="0"
+                            Style="{StaticResource orangeButton}"/>
+
+                <Button Text="tony na kilogramy"
+                            VerticalOptions="CenterAndExpand"
+                            HorizontalOptions="Center"
+                            Clicked="OnButtonClicked9v2"
+                            Grid.Row="11"
+                            Grid.Column="1"
+                            Style="{StaticResource orangeButton}"/>
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

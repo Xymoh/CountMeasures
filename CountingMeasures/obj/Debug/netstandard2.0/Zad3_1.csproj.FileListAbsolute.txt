@@ -1,0 +1,12 @@
+C:\Users\ruszk\source\repos\Zad3_1\Zad3_1\Zad3_1\bin\Debug\netstandard2.0\Zad3_1.deps.json
+C:\Users\ruszk\source\repos\Zad3_1\Zad3_1\Zad3_1\bin\Debug\netstandard2.0\Zad3_1.dll
+C:\Users\ruszk\source\repos\Zad3_1\Zad3_1\Zad3_1\bin\Debug\netstandard2.0\Zad3_1.pdb
+C:\Users\ruszk\source\repos\Zad3_1\Zad3_1\Zad3_1\obj\Debug\netstandard2.0\Zad3_1.csprojAssemblyReference.cache
+C:\Users\ruszk\source\repos\Zad3_1\Zad3_1\Zad3_1\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\ruszk\source\repos\Zad3_1\Zad3_1\Zad3_1\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\ruszk\source\repos\Zad3_1\Zad3_1\Zad3_1\obj\Debug\netstandard2.0\Zad3_1.csproj.CoreCompileInputs.cache
+C:\Users\ruszk\source\repos\Zad3_1\Zad3_1\Zad3_1\obj\Debug\netstandard2.0\Zad3_1.AssemblyInfoInputs.cache
+C:\Users\ruszk\source\repos\Zad3_1\Zad3_1\Zad3_1\obj\Debug\netstandard2.0\Zad3_1.AssemblyInfo.cs
+C:\Users\ruszk\source\repos\Zad3_1\Zad3_1\Zad3_1\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\ruszk\source\repos\Zad3_1\Zad3_1\Zad3_1\obj\Debug\netstandard2.0\Zad3_1.dll
+C:\Users\ruszk\source\repos\Zad3_1\Zad3_1\Zad3_1\obj\Debug\netstandard2.0\Zad3_1.pdb
